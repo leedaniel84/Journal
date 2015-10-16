@@ -16,6 +16,8 @@
 		68816AE81BBB5406000569CE /* JournalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68816AE71BBB5406000569CE /* JournalUITests.swift */; };
 		83EC26C31BD0534E00479A71 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EC26C21BD0534E00479A71 /* Entry.swift */; settings = {ASSET_TAGS = (); }; };
 		83EC26C51BD055E400479A71 /* EntryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EC26C41BD055E400479A71 /* EntryController.swift */; settings = {ASSET_TAGS = (); }; };
+		83EC26C91BD0764200479A71 /* EntryListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EC26C81BD0764200479A71 /* EntryListTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		83EC26CB1BD0958300479A71 /* EntryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EC26CA1BD0958300479A71 /* EntryDetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		68816AE91BBB5406000569CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83EC26C21BD0534E00479A71 /* Entry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
 		83EC26C41BD055E400479A71 /* EntryController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryController.swift; sourceTree = "<group>"; };
+		83EC26C81BD0764200479A71 /* EntryListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryListTableViewController.swift; sourceTree = "<group>"; };
+		83EC26CA1BD0958300479A71 /* EntryDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				83EC26C21BD0534E00479A71 /* Entry.swift */,
 				83EC26C41BD055E400479A71 /* EntryController.swift */,
 				68816ACB1BBB5405000569CE /* Main.storyboard */,
+				83EC26CA1BD0958300479A71 /* EntryDetailViewController.swift */,
+				83EC26C81BD0764200479A71 /* EntryListTableViewController.swift */,
 				68816ACE1BBB5405000569CE /* Assets.xcassets */,
 				68816AD01BBB5405000569CE /* LaunchScreen.storyboard */,
 				68816AD31BBB5405000569CE /* Info.plist */,
@@ -262,8 +268,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				83EC26C31BD0534E00479A71 /* Entry.swift in Sources */,
+				83EC26C91BD0764200479A71 /* EntryListTableViewController.swift in Sources */,
 				68816ACA1BBB5405000569CE /* ViewController.swift in Sources */,
 				83EC26C51BD055E400479A71 /* EntryController.swift in Sources */,
+				83EC26CB1BD0958300479A71 /* EntryDetailViewController.swift in Sources */,
 				68816AC81BBB5405000569CE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,6 +9,9 @@
 import UIKit
 
 @UIApplicationMain
+
+// TODO: Fix App Delegate Thread 1: SIGABRT
+
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?

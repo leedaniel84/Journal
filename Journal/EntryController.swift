@@ -30,4 +30,18 @@ class EntryController {
             
         }
     }
+    
+    func saveToPersistentStorage() {
+        let entryDictionaries = self.entries.map({$0.dictionaryCopy()})
+        NSUserDefaults.standardUserDefaults().setObject(entryDictionaries, forKey: entriesKey)
+    }
+    
+    func loadPersistentStorage() {
+        let entryDictionariesFromDefaults = NSUserDefaults.standardUserDefaults().objectForKey(entriesKey) as? [Dictionary<String, AnyObject>]
+        
+        if let entryDictionaries = entryDictionariesFromDefaults {
+            self.entries = entryDictionaries.map({Entry(dictionary: $0)!})
+            
+        }
+    }
 }

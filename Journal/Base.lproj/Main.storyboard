@@ -78,7 +78,9 @@
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jjg-hZ-bHk">
                                 <rect key="frame" x="0.0" y="20" width="600" height="44"/>
                                 <items>
-                                    <navigationItem title="Title" id="rbe-a3-Omj"/>
+                                    <navigationItem title="Title" id="rbe-a3-Omj">
+                                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="rPv-m9-Fzs"/>
+                                    </navigationItem>
                                 </items>
                             </navigationBar>
                         </subviews>

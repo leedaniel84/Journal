@@ -112,7 +112,7 @@ This view needs to serve as a reading and editing view. You will add a UITextFie
 1. Add an ```EntryDetailViewController``` file as a subclass of UIViewController
 2. Add a UIViewController scene to Main.storyboard and set the class to ```EntryDetailViewController```
 3. Add a UITextField for the entry's title text to the top of the scene, add an outlet to the class file, and set the delegate relationship
-4. Implement the delegate functions ```textFieldShouldReturn``` to resign first responder to dismiss the keyboard
+4. Implement the delegate functions ```tReturn``` to resign first responder to dismiss the keyboard
 5. Add a UITextView for the entry's body text beneath the title text field, add an outlet to the class file
 6. Add a UIButton beneath the body text view, add an action to the class file that clears the text in the titleTextField and bodyTextView
 7. Add a UIBarButtonItem to the UINavigationBar as a Save System Item, add an action to the class file
